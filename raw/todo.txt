@@ -1,0 +1,35 @@
+
+
+#### DONE ######################################################################
+[/] Get shooting drawing working
+    - with boxes
+[/] Probably just fucking redo centerline lol
+    - lots of special cast considerations :P
+[?] Redo crates, far-away edge crates are stuck in the wall T.T
+
+
+#### TODO ######################################################################
+
+Short term goal:
+[x] 1 playable level with 1 enemy type
+    [x] Aim View enemy [/] rolling, [x] ducking/unducking, and [/] firing projectiles
+        [x] Killing enemy deleting from topdown
+    [x] Topdown enemy patrolling, engaging, and firing projectiles
+        [x] Enemy respawning correctly
+[x] player death, restarting
+[x] 1 terminal with some story
+
+-- Main Game --
+[x] Get enemy interactions working
+    [x] Detecting enemies in view, putting them into scene
+    [x] Either rolling because of clear or pop up and down in cover
+[x] Get dialogue scenes/terminals working
+
+-- Stretch goals --
+[x] Get lighting scene integrated
+[x] Get save points working
+[x] RPG mechanics? Menu? Not sure...
+    I feel like shooter mechanics are a more streamlined fit
+    - equipment
+    - bullets and inventory
+    - maybe more like survival shooter a la resident evil

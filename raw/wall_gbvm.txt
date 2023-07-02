@@ -1,0 +1,10 @@
+; Crate (x14, y12)
+VM_REPLACE_TILE_XY 14, 12, ___bank_bg_aim_background_tileset_tileset, _bg_aim_background_tileset_tileset, VAR_CRATE_UL
+VM_REPLACE_TILE_XY 15, 12, ___bank_bg_aim_background_tileset_tileset, _bg_aim_background_tileset_tileset, VAR_CRATE_UR
+VM_REPLACE_TILE_XY 14, 13, ___bank_bg_aim_background_tileset_tileset, _bg_aim_background_tileset_tileset, VAR_CRATE_DL
+VM_REPLACE_TILE_XY 15, 13, ___bank_bg_aim_background_tileset_tileset, _bg_aim_background_tileset_tileset, VAR_CRATE_DR
+; Crate (x16, y12)
+VM_REPLACE_TILE_XY 16, 12, ___bank_bg_aim_background_tileset_tileset, _bg_aim_background_tileset_tileset, VAR_CRATE_UL
+VM_REPLACE_TILE_XY 17, 12, ___bank_bg_aim_background_tileset_tileset, _bg_aim_background_tileset_tileset, VAR_CRATE_UR
+VM_REPLACE_TILE_XY 16, 13, ___bank_bg_aim_background_tileset_tileset, _bg_aim_background_tileset_tileset, VAR_CRATE_DL
+VM_REPLACE_TILE_XY 17, 13, ___bank_bg_aim_background_tileset_tileset, _bg_aim_background_tileset_tileset, VAR_CRATE_DR
