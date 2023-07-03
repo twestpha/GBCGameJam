@@ -14,8 +14,8 @@ Short term goal:
 [x] 1 playable level with 1 enemy type
     [x] Aim View enemy [/] rolling, [x] ducking/unducking, and [/] firing projectiles
         [x] Killing enemy deleting from topdown
-    [x] Topdown enemy patrolling, engaging, and firing projectiles
-        [x] Enemy respawning correctly
+    [x] Topdown enemy [/] patrolling, [x] engaging, and [x] firing projectiles
+        [/] Enemy respawning to position correctly
 [x] player death, restarting
 [x] 1 terminal with some story
 
