@@ -1,5 +1,3 @@
-
-
 #### DONE ######################################################################
 [/] Get shooting drawing working
     - with boxes
@@ -7,8 +5,9 @@
     - lots of special cast considerations :P
 [?] Redo crates, far-away edge crates are stuck in the wall T.T
 
-
 #### TODO ######################################################################
+
+[x] Gotta rework how enemy placement works... fuck
 
 Short term goal:
 [x] 1 playable level with 1 enemy type

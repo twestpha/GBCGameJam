@@ -111,7 +111,7 @@ void actors_update() NONBANKED {
         );
     }
 
-    actor = actors_active_head;
+    actor = actors_active_tail;
     while (actor) {
         if (actor->pinned) {
             screen_x = (actor->pos.x >> 4) + 8, screen_y = (actor->pos.y >> 4) + 8;
@@ -134,11 +134,11 @@ void actors_update() NONBANKED {
                 (actor_tile16_y - ACTOR_BOUNDS_TILE16 - SCREEN_TILE16_H > screen_tile16_y)
             ) {
                 if (actor->persistent) {
-                    actor = actor->next;
+                    actor = actor->prev;
                     continue;
                 }
                 // Deactivate if offscreen
-                actor_t * prev = actor->next;
+                actor_t * prev = actor->prev;
                 if (!VM_ISLOCKED()) deactivate_actor(actor);
                 actor = prev;
                 continue;
@@ -146,10 +146,10 @@ void actors_update() NONBANKED {
         }
         if (NO_OVERLAY_PRIORITY && (!show_actors_on_overlay) && (WX_REG != MINWNDPOSX) && (WX_REG < (UINT8)screen_x + 8) && (WY_REG < (UINT8)(screen_y) - 8)) {
             // Hide if under window (don't deactivate)
-            actor = actor->next;
+            actor = actor->prev;
             continue;
         } else if (actor->hidden) {
-            actor = actor->next;
+            actor = actor->prev;
             continue;
         }
 
@@ -178,7 +178,7 @@ void actors_update() NONBANKED {
             screen_y
         );
 
-        actor = actor->next;
+        actor = actor->prev;
     }
 
     SWITCH_ROM(_save);
