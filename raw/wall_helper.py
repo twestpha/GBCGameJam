@@ -71,8 +71,8 @@ def generateCrate(x, y):
 
 
 
+output += generateCrate(12, 12);
 output += generateCrate(14, 12);
-output += generateCrate(16, 12);
 
 
 # Output resulting commands to file
