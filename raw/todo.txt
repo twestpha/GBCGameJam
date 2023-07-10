@@ -4,10 +4,11 @@
 [/] Probably just fucking redo centerline lol
     - lots of special cast considerations :P
 [?] Redo crates, far-away edge crates are stuck in the wall T.T
+[/] Gotta rework how enemy placement works... fuck
 
 #### TODO ######################################################################
 
-[x] Gotta rework how enemy placement works... fuck
+[x] Definitely a couple small bugs around enemy placement
 
 Short term goal:
 [x] 1 playable level with 1 enemy type
@@ -16,7 +17,7 @@ Short term goal:
     [x] Topdown enemy [/] patrolling, [x] engaging, and [x] firing projectiles
         [/] Enemy respawning to position correctly
 [x] player death, restarting
-[x] 1 terminal with some story
+[x] 1 terminal with some storys
 
 -- Main Game --
 [x] Get enemy interactions working

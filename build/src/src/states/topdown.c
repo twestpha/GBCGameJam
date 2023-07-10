@@ -205,13 +205,13 @@ void topdown_update() BANKED {
                 UBYTE leftCollisionB = tile_at(tile_coll_left_xa, tile_coll_left_xb);
 
                 if(leftCollisionA != leftCollisionB){
-                    a_wall_tiles[i] = CRATE;
+                    // a_wall_tiles[i] = CRATE;
                     // vm_set_const(0, LEFT_0 + i, CRATE);
                 } else if(leftCollisionA){
-                    a_wall_tiles[i] = WALL;
+                    // a_wall_tiles[i] = WALL;
                     // vm_set_const(0, LEFT_0 + i, WALL);
                 } else {
-                    a_wall_tiles[i] = EMPTY;
+                    // a_wall_tiles[i] = EMPTY;
                     // vm_set_const(0, LEFT_0 + i, EMPTY);
                 }
 
@@ -225,14 +225,14 @@ void topdown_update() BANKED {
                 UBYTE centerCollisionB = tile_at(tile_coll_center_xa, tile_coll_center_xb);
 
                 if(centerCollisionA != centerCollisionB){
-                    a_wall_tiles[i] = CRATE;
-                    // vm_set_const(0, CENTER_0 + i, CRATE);
+                    // a_wall_tiles[i] = CRATE;
+                    vm_set_const(0, CENTER_0 + i, CRATE);
                 } else if(centerCollisionA){
-                    a_wall_tiles[i] = WALL;
-                    // vm_set_const(0, CENTER_0 + i, WALL);
+                    // a_wall_tiles[i] = WALL;
+                    vm_set_const(0, CENTER_0 + i, WALL);
                 } else {
-                    a_wall_tiles[i] = EMPTY;
-                    // vm_set_const(0, CENTER_0 + i, EMPTY);
+                    // a_wall_tiles[i] = EMPTY;
+                    vm_set_const(0, CENTER_0 + i, EMPTY);
                 }
 
                 // Test right tiles and write to variables
