@@ -6,16 +6,17 @@
 [?] Redo crates, far-away edge crates are stuck in the wall T.T
 [/] Gotta rework how enemy placement works... fuck
 [/] Aim View enemy [/] rolling, [/] ducking/unducking, and [/] firing projectiles
+[/] Killing enemy deleting from topdown
 
 #### TODO ######################################################################
 
 [x] Definitely a couple small bugs around enemy placement
 [x] Fix shitty invsin. It's too shitty
 [x] Sometimes enemy doesn't end up in correct spot when exiting aiming
+[x] Bullets don't collide after reloading...? After enemy ducks?
 
 Short term goal:
 [x] 1 playable level with 1 enemy type
-    [x] Killing enemy deleting from topdown
     [x] Topdown enemy [/] patrolling, [x] engaging, and [x] firing projectiles
         [/] Enemy respawning to position correctly
 [x] player death, restarting
