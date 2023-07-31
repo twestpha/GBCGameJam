@@ -7,6 +7,8 @@
 [/] Gotta rework how enemy placement works... fuck
 [/] Aim View enemy [/] rolling, [/] ducking/unducking, and [/] firing projectiles
 [/] Killing enemy deleting from topdown
+[/] Enemy respawning to position correctly
+[/] Either rolling because of clear or pop up and down in cover
 
 #### TODO ######################################################################
 
@@ -18,18 +20,17 @@
 Short term goal:
 [x] 1 playable level with 1 enemy type
     [x] Topdown enemy [/] patrolling, [x] engaging, and [x] firing projectiles
-        [/] Enemy respawning to position correctly
 [x] player death, restarting
-[x] 1 terminal with some storys
+    - shitty placeholder start screen
+[x] 1 terminal with some story
 
 -- Main Game --
 [x] Get enemy interactions working
     [x] Detecting enemies in view, putting them into scene
-    [x] Either rolling because of clear or pop up and down in cover
 [x] Get dialogue scenes/terminals working
 
 -- Stretch goals --
-[x] Get lighting scene integrated
+[x] Get lighting scene integrated, light switch working
 [x] Get save points working
 [x] RPG mechanics? Menu? Not sure...
     I feel like shooter mechanics are a more streamlined fit
