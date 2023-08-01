@@ -21,7 +21,7 @@
             ],
             "spritePaletteIds": [
                 "ef5091fa-19ac-4b90-b7a1-86fd079ec6fb",
-                null,
+                "cd27cd74-f3af-4ad5-8e8a-31c196552323",
                 "13a87b2e-b64c-46db-9c26-b6510076b7b5",
                 null,
                 null,
@@ -1056,8 +1056,8 @@
             "autoFadeSpeed": 1,
             "id": "a846ecad-05d7-45ae-a3cd-95b6b689566c",
             "symbol": "scene_1",
-            "x": 184.77777777777777,
-            "y": 249.16666666666669,
+            "x": 199.9777777777778,
+            "y": 285.70000000000005,
             "actors": [
                 {
                     "name": "enemy_0",
@@ -1661,6 +1661,106 @@
                     "id": "eceec95c-17c1-42dd-936f-5b6bbd7c1881",
                     "x": 28,
                     "y": 11
+                },
+                {
+                    "name": "",
+                    "frame": 0,
+                    "animate": false,
+                    "spriteSheetId": "93060c68-9846-4b45-8ab2-7551d9f7f726",
+                    "direction": "down",
+                    "moveSpeed": 1,
+                    "animSpeed": 15,
+                    "paletteId": "",
+                    "isPinned": false,
+                    "persistent": false,
+                    "collisionGroup": "",
+                    "symbol": "actor_13",
+                    "script": [
+                        {
+                            "command": "EVENT_SET_VALUE",
+                            "args": {
+                                "variable": "66",
+                                "value": {
+                                    "type": "number",
+                                    "value": 0
+                                },
+                                "__collapse": true
+                            },
+                            "id": "01c8c2e7-eac7-4601-91cf-a23554aee883"
+                        },
+                        {
+                            "command": "EVENT_RNG_SEED",
+                            "args": {
+                                "__collapse": true
+                            },
+                            "id": "ae91a342-7cf1-434c-9e0a-f0ad6ad99eb5"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_GET_POSITION",
+                            "args": {
+                                "actorId": "$self$",
+                                "vectorX": "0",
+                                "vectorY": "1",
+                                "__collapse": true
+                            },
+                            "id": "39895ec3-b522-4259-bb3c-df821761015e"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_GET_DIRECTION",
+                            "args": {
+                                "actorId": "$self$",
+                                "direction": "2",
+                                "__collapse": true
+                            },
+                            "id": "36b1d785-5687-4225-bc02-d8e5f12ddeed"
+                        },
+                        {
+                            "command": "EVENT_COMMENT",
+                            "args": {
+                                "text": "TODO cancel all enemy moves",
+                                "__collapse": true
+                            },
+                            "id": "46b7f9c7-dfb3-4b7d-beed-9f845d6ea21a"
+                        },
+                        {
+                            "command": "EVENT_ACTOR_MOVE_CANCEL",
+                            "args": {
+                                "actorId": "eceec95c-17c1-42dd-936f-5b6bbd7c1881",
+                                "__collapse": true
+                            },
+                            "id": "86c9f8e8-1eab-4401-a4e3-38d149cdb153"
+                        },
+                        {
+                            "command": "EVENT_WAIT",
+                            "args": {
+                                "time": 0.5,
+                                "frames": 1,
+                                "units": "frames",
+                                "__collapse": true
+                            },
+                            "id": "9da86e35-a54d-4864-a5ac-c897ac6522c2"
+                        },
+                        {
+                            "command": "EVENT_SWITCH_SCENE",
+                            "args": {
+                                "sceneId": "372f8da9-1d30-4eee-965f-9f009668f0fd",
+                                "x": 0,
+                                "y": 0,
+                                "direction": "",
+                                "fadeSpeed": "2",
+                                "__collapse": true
+                            },
+                            "id": "42e52276-864b-419a-951b-8bff74d607a8"
+                        }
+                    ],
+                    "startScript": [],
+                    "updateScript": [],
+                    "hit1Script": [],
+                    "hit2Script": [],
+                    "hit3Script": [],
+                    "id": "db03c79a-0736-4f84-8279-e7ee0d070417",
+                    "x": 18,
+                    "y": 11
                 }
             ],
             "triggers": [],
@@ -1974,7 +2074,8 @@
                                 "command": "EVENT_IF_EXPRESSION",
                                 "args": {
                                     "expression": "($L0$ % 16 == 0) && ($L1$ % 16 == 8)",
-                                    "__collapseElse": true
+                                    "__collapseElse": true,
+                                    "__collapse": false
                                 },
                                 "children": {
                                     "true": [
@@ -2003,6 +2104,18 @@
                                                 "__collapse": true
                                             },
                                             "id": "8fa02311-7293-40fd-84ce-d75b1c084cd6"
+                                        },
+                                        {
+                                            "command": "EVENT_SET_VALUE",
+                                            "args": {
+                                                "variable": "66",
+                                                "value": {
+                                                    "type": "number",
+                                                    "value": 0
+                                                },
+                                                "__collapse": true
+                                            },
+                                            "id": "423dd145-e62a-4d18-9fc2-7c08605693e0"
                                         },
                                         {
                                             "command": "EVENT_FADE_OUT",
@@ -2049,7 +2162,7 @@
                                             "command": "EVENT_GROUP",
                                             "args": {
                                                 "__label": "Populating Enemy Blocks",
-                                                "__collapse": false
+                                                "__collapse": true
                                             },
                                             "children": {
                                                 "true": [
@@ -2177,7 +2290,7 @@
                                                         "command": "EVENT_GROUP",
                                                         "args": {
                                                             "__label": "Enemy 0",
-                                                            "__collapse": false
+                                                            "__collapse": true
                                                         },
                                                         "children": {
                                                             "true": [
@@ -5342,7 +5455,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
@@ -5691,16 +5804,43 @@
                                 "id": "dae3556a-99e4-4910-b6cd-9d2932c64ec8"
                             },
                             {
-                                "command": "EVENT_SWITCH_SCENE",
+                                "command": "EVENT_IF_VALUE",
                                 "args": {
-                                    "sceneId": "a846ecad-05d7-45ae-a3cd-95b6b689566c",
-                                    "x": 2,
-                                    "y": 3,
-                                    "direction": "",
-                                    "fadeSpeed": "2",
+                                    "variable": "66",
+                                    "operator": "==",
+                                    "comparator": "0",
+                                    "__collapseElse": false,
                                     "__collapse": true
                                 },
-                                "id": "b4458bd7-58dd-4f47-ab9b-9d81d053a512"
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "a846ecad-05d7-45ae-a3cd-95b6b689566c",
+                                                "x": 2,
+                                                "y": 3,
+                                                "direction": "",
+                                                "fadeSpeed": "2",
+                                                "__collapse": false
+                                            },
+                                            "id": "b4458bd7-58dd-4f47-ab9b-9d81d053a512"
+                                        }
+                                    ],
+                                    "false": [
+                                        {
+                                            "command": "EVENT_TEXT",
+                                            "args": {
+                                                "text": [
+                                                    "FUCKED UP LEVEL"
+                                                ],
+                                                "avatarId": ""
+                                            },
+                                            "id": "cd8231dc-0e55-447e-b9ab-305f7825f3aa"
+                                        }
+                                    ]
+                                },
+                                "id": "1418bbb3-8611-4629-8f7b-dad6a95a5111"
                             }
                         ]
                     },
@@ -5972,15 +6112,6 @@
                                                             "__collapse": true
                                                         },
                                                         "id": "6da8284e-dddd-4b47-803a-51e88449fd66"
-                                                    },
-                                                    {
-                                                        "command": "EVENT_ACTOR_SET_STATE",
-                                                        "args": {
-                                                            "actorId": "750bddee-818d-45b2-a60c-837e4ed98939",
-                                                            "spriteStateId": "",
-                                                            "__collapse": true
-                                                        },
-                                                        "id": "b71abdce-8c31-48da-a22b-983a01777246"
                                                     },
                                                     {
                                                         "command": "EVENT_ACTOR_COLLISIONS_ENABLE",
@@ -7268,8 +7399,8 @@
             "autoFadeSpeed": 1,
             "id": "692e4cbd-87d6-4d2a-8686-ce3a0fab4da8",
             "symbol": "scene_3",
-            "x": 204.10000000000002,
-            "y": 715.4999999999999,
+            "x": 197.70000000000005,
+            "y": 637.1000000000001,
             "actors": [
                 {
                     "name": "",
@@ -7343,7 +7474,7 @@
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "5f53e3b1-1067-4469-a8d3-6931af0b7f0d"
+            "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         },
         {
             "name": "aim_background_tileset",
@@ -7752,15 +7883,107 @@
                 {
                     "command": "EVENT_ACTOR_HIDE",
                     "args": {
-                        "actorId": "$self$"
+                        "actorId": "$self$",
+                        "__collapse": true
                     },
                     "id": "e7c99a28-c14c-4620-a657-bf8bd77c041d"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "3728f9c4-cae6-4996-9d7b-0c171e8a2a11",
+                        "__collapse": true
+                    },
+                    "id": "9f2b7013-99d5-4411-a365-852f5ea113be"
+                },
+                {
+                    "command": "EVENT_SET_INPUT_SCRIPT",
+                    "args": {
+                        "input": [
+                            "b",
+                            "a",
+                            "start",
+                            "select",
+                            "left",
+                            "up",
+                            "down",
+                            "right"
+                        ],
+                        "override": true,
+                        "__scriptTabs": "press",
+                        "__collapse": true
+                    },
+                    "children": {
+                        "true": [
+                            {
+                                "command": "EVENT_REMOVE_INPUT_SCRIPT",
+                                "args": {
+                                    "input": [
+                                        "b",
+                                        "a",
+                                        "left",
+                                        "up",
+                                        "start",
+                                        "down",
+                                        "right",
+                                        "select"
+                                    ]
+                                },
+                                "id": "e2f005a4-1104-4353-871e-62310fd53467"
+                            },
+                            {
+                                "command": "EVENT_IF_VALUE",
+                                "args": {
+                                    "variable": "66",
+                                    "operator": "==",
+                                    "comparator": "0",
+                                    "__collapseElse": true
+                                },
+                                "children": {
+                                    "true": [
+                                        {
+                                            "command": "EVENT_SWITCH_SCENE",
+                                            "args": {
+                                                "sceneId": "a846ecad-05d7-45ae-a3cd-95b6b689566c",
+                                                "x": 0,
+                                                "y": 0,
+                                                "direction": "",
+                                                "fadeSpeed": "2"
+                                            },
+                                            "id": "d79f4c40-eefe-4d40-b096-5314c7d583b4"
+                                        }
+                                    ],
+                                    "false": []
+                                },
+                                "id": "a7396a93-026c-4c26-9a91-59c9904126c4"
+                            }
+                        ]
+                    },
+                    "id": "4e36b1cd-7e60-46d2-b2d6-55c5b021ecf5"
+                },
+                {
+                    "command": "EVENT_WAIT",
+                    "args": {
+                        "time": 0.25,
+                        "frames": 30,
+                        "__collapse": true
+                    },
+                    "id": "4559c4e4-204d-49f3-ad9e-84332e136aea"
+                },
+                {
+                    "command": "EVENT_CALL_CUSTOM_EVENT",
+                    "args": {
+                        "customEventId": "8e946e5b-f2aa-48a6-88ab-9e77c994d167",
+                        "__collapse": true
+                    },
+                    "id": "f4c487d6-0bc6-4958-92a8-8826a98b3886"
                 }
             ],
             "playerHit1Script": [],
             "playerHit2Script": [],
             "playerHit3Script": [],
-            "playerSpriteSheetId": "db906646-f5f7-43c7-a710-8c406411e4af"
+            "playerSpriteSheetId": "db906646-f5f7-43c7-a710-8c406411e4af",
+            "autoFadeEventCollapse": true
         },
         {
             "name": "test_aiming_scene",
@@ -8135,8 +8358,8 @@
             "autoFadeSpeed": 1,
             "id": "84ce9a8a-07cc-4d54-9420-725ecc9d9672",
             "symbol": "scene_6",
-            "x": 560.1777777777771,
-            "y": 661.485714285714,
+            "x": 563.3777777777772,
+            "y": 663.8857142857139,
             "actors": [
                 {
                     "name": "test_enemy",
@@ -15670,6 +15893,28 @@
             "playerHit2Script": [],
             "playerHit3Script": [],
             "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
+        },
+        {
+            "name": "terminal_scene_tileset",
+            "backgroundId": "4d49a635-f6e2-483f-9484-9f0dc69aa754",
+            "width": 20,
+            "height": 18,
+            "type": "TOPDOWN",
+            "paletteIds": [],
+            "spritePaletteIds": [],
+            "collisions": [],
+            "autoFadeSpeed": 1,
+            "id": "313b2c44-7c71-4c93-a427-f38c538e07c7",
+            "symbol": "scene_7",
+            "x": 743.9999999999997,
+            "y": 81.11111111111109,
+            "actors": [],
+            "triggers": [],
+            "script": [],
+            "playerHit1Script": [],
+            "playerHit2Script": [],
+            "playerHit3Script": [],
+            "playerSpriteSheetId": "daf95270-e30d-423b-9ee7-990ae29f57f6"
         }
     ],
     "backgrounds": [
@@ -17100,7 +17345,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "game_startscreen.png"
+            "filename": "game_startscreen.png",
+            "tileColors": []
         },
         {
             "id": "1e95ad86-08d3-48ae-9454-873bc5babe52",
@@ -18148,6 +18394,16 @@
             "imageHeight": 144,
             "filename": "terminal_background.png",
             "tileColors": []
+        },
+        {
+            "id": "4d49a635-f6e2-483f-9484-9f0dc69aa754",
+            "name": "terminal_tileset",
+            "symbol": "bg_terminal_tileset",
+            "width": 20,
+            "height": 18,
+            "imageWidth": 160,
+            "imageHeight": 144,
+            "filename": "terminal_tileset.png"
         }
     ],
     "spriteSheets": [
@@ -23840,6 +24096,255 @@
             "boundsWidth": 16,
             "boundsHeight": 16,
             "animSpeed": 15
+        },
+        {
+            "id": "93060c68-9846-4b45-8ab2-7551d9f7f726",
+            "name": "walking_screen",
+            "symbol": "sprite_walking_screen",
+            "numFrames": 1,
+            "type": "static",
+            "filename": "walking_screen.png",
+            "checksum": "7c59198efc7379182115c3f0df817941408999f1",
+            "width": 16,
+            "height": 32,
+            "states": [
+                {
+                    "id": "77eeb22d-343a-4b2b-94f0-8ac152b3065a",
+                    "name": "",
+                    "animationType": "multi",
+                    "flipLeft": true,
+                    "animations": [
+                        {
+                            "id": "26f2fa09-5f9c-43d3-9b96-0d93effca5b5",
+                            "frames": [
+                                {
+                                    "id": "8e0f3f2b-5ce5-4a4f-890a-9a5e7a59abb7",
+                                    "tiles": [
+                                        {
+                                            "id": "a564de72-3d5b-459c-aa2b-894b27018bfe",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 16,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 1,
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "13de51e4-a2eb-493a-80d7-d1c670a62fa2",
+                                    "tiles": [
+                                        {
+                                            "id": "44a188f5-330d-4d2c-95a0-b002ef770162",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 16,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": true,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 1,
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2d141b50-2ad1-475c-ad23-b45e0d7e5152",
+                            "frames": [
+                                {
+                                    "id": "b1d810de-9c11-4186-8c69-ebb511328c3e",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "ffc267d0-7a05-42af-af2a-4c16c4b0e505",
+                            "frames": [
+                                {
+                                    "id": "66b165e0-dd99-4def-9afc-0a6052798f09",
+                                    "tiles": [
+                                        {
+                                            "id": "64debfba-62c6-4a7b-ac68-23d8a98afa9b",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": true,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 1,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "0bdf425f-e3bd-4be6-ac8f-2a651c264191",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": true,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 1,
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "aa183890-41d4-403e-b475-549b30453acf",
+                                    "tiles": [
+                                        {
+                                            "id": "808245d0-4a8d-4638-b963-5315c1716afb",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": true,
+                                            "flipY": true,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 1,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "2b2756ba-aea0-47bc-bc63-d592e38d10d8",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": true,
+                                            "flipY": true,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 1,
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "b1c3f4f1-96d0-4044-b52d-f4747c965529",
+                            "frames": [
+                                {
+                                    "id": "a37e4818-e150-4947-9a02-c2803f6506b8",
+                                    "tiles": [
+                                        {
+                                            "id": "fab6c1ed-a34a-4fa3-85e0-6b5ade2d8953",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 1,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "32b0c4f7-c368-4e0c-ab07-a97311819d9e",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": false,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 1,
+                                            "priority": false
+                                        }
+                                    ]
+                                },
+                                {
+                                    "id": "fc262b4a-68c5-46ed-b04f-b1fe0c3b50dc",
+                                    "tiles": [
+                                        {
+                                            "id": "7392a30a-c428-44c5-ac8d-5c2d9945d03b",
+                                            "x": 8,
+                                            "y": 0,
+                                            "sliceX": 0,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": true,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 1,
+                                            "priority": false
+                                        },
+                                        {
+                                            "id": "9dfd438c-1535-40b8-8269-3ab10984239d",
+                                            "x": 0,
+                                            "y": 0,
+                                            "sliceX": 8,
+                                            "sliceY": 0,
+                                            "palette": 0,
+                                            "flipX": true,
+                                            "flipY": false,
+                                            "objPalette": "OBP0",
+                                            "paletteIndex": 1,
+                                            "priority": false
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "id": "be1a57d8-d8b9-401f-bed8-53927c34fccf",
+                            "frames": [
+                                {
+                                    "id": "39313039-e907-4ffc-b6d8-dc0ab6e9569a",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4c49fa87-3ffb-49c7-b057-9438022d997e",
+                            "frames": [
+                                {
+                                    "id": "2b883666-e70c-4657-9c8b-924b929a0c05",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "547d7ee3-8a12-46e0-a0fb-dfc41a42766f",
+                            "frames": [
+                                {
+                                    "id": "06172cd3-6976-41e3-8569-7ee79e4ad502",
+                                    "tiles": []
+                                }
+                            ]
+                        },
+                        {
+                            "id": "daa5665b-6d06-4ee7-b586-1beb1cc0e120",
+                            "frames": [
+                                {
+                                    "id": "2c722a3d-9a78-4b57-8d25-04cafc17be20",
+                                    "tiles": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "numTiles": 3,
+            "canvasWidth": 16,
+            "canvasHeight": 16,
+            "boundsX": 0,
+            "boundsY": 0,
+            "boundsWidth": 16,
+            "boundsHeight": 16,
+            "animSpeed": 15
         }
     ],
     "palettes": [
@@ -24117,6 +24622,16 @@
                 "F84808",
                 "F89080",
                 "F89080"
+            ]
+        },
+        {
+            "id": "cd27cd74-f3af-4ad5-8e8a-31c196552323",
+            "name": "terminal_sprite",
+            "colors": [
+                "6850A8",
+                "A8F800",
+                "101018",
+                "101018"
             ]
         }
     ],
@@ -26713,6 +27228,53 @@
                     "id": "f3fd9c52-15e9-42fd-a45f-76cc03042803"
                 }
             ]
+        },
+        {
+            "id": "3728f9c4-cae6-4996-9d7b-0c171e8a2a11",
+            "name": "setup_terminal_clear",
+            "description": "",
+            "variables": {},
+            "actors": {},
+            "symbol": "script_9",
+            "script": [
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "24",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        }
+                    },
+                    "id": "353d6ecf-fa3b-45a3-a43c-df8ed2e363f3"
+                },
+                {
+                    "command": "EVENT_GBVM_SCRIPT",
+                    "args": {
+                        "script": "; box(x3, y3, w14, h12)\nVM_REPLACE_TILE_XY 3, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 3, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 3, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 3, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 3, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 3, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 3, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 3, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 3, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 3, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 3, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 3, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 4, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 5, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 6, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 7, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 8, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 9, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 10, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 11, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 12, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 13, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 14, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 15, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP\nVM_REPLACE_TILE_XY 16, 14, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEMP",
+                        "references": [
+                            {
+                                "type": "background",
+                                "id": "4d49a635-f6e2-483f-9484-9f0dc69aa754"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "24"
+                            }
+                        ]
+                    },
+                    "id": "4a2160b7-1f7c-4bce-829d-b5e981c12670"
+                }
+            ]
+        },
+        {
+            "id": "8e946e5b-f2aa-48a6-88ab-9e77c994d167",
+            "name": "setup_terminal_write",
+            "description": "",
+            "variables": {},
+            "actors": {},
+            "symbol": "script_10",
+            "script": []
         }
     ],
     "music": [
@@ -27141,6 +27703,11 @@
             "id": "65",
             "name": "player_shooting",
             "symbol": "var_player_shooting"
+        },
+        {
+            "id": "66",
+            "name": "walking_level",
+            "symbol": "var_walking_level"
         }
     ],
     "engineFieldValues": [
@@ -27162,9 +27729,9 @@
         "startDirection": "up",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 1575,
-        "worldScrollY": 813,
-        "zoom": 325,
+        "worldScrollX": 1300,
+        "worldScrollY": 36,
+        "zoom": 275,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",

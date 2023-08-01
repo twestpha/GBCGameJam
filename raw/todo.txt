@@ -9,11 +9,13 @@
 [/] Killing enemy deleting from topdown
 [/] Enemy respawning to position correctly
 [/] Either rolling because of clear or pop up and down in cover
+[/] Better crate visuals in aiming
+[/] BUG cursor dictates position after returning to walking scene, not player sprite
 
 #### TODO ######################################################################
 
 [x] Definitely a couple small bugs around enemy placement
-[x] Fix shitty invsin. It's too shitty
+[x] Fix shittyInvsin(). It's too shitty
 [x] Sometimes enemy doesn't end up in correct spot when exiting aiming
 [x] Bullets don't collide after reloading...? After enemy ducks?
 

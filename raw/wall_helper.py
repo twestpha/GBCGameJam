@@ -1,7 +1,6 @@
 
 # Draw various things in blocks...
 
-
 commandFormatString = "VM_REPLACE_TILE_XY {0}, {1}, ___bank_bg_aim_background_tileset_tileset, _bg_aim_background_tileset_tileset, {2}\n"
 
 wall_vars = [
@@ -71,8 +70,7 @@ def generateCrate(x, y):
 
 
 
-output += generateCrate(12, 12);
-output += generateCrate(14, 12);
+output += generateBox(3, 3, 14, 12, 0);
 
 
 # Output resulting commands to file
