@@ -1,0 +1,279 @@
+; SYSTEM BOOT  /:LOADING    /:LOADING    /:SUCCESS    FLIGHT LOG 83/////////////REACTOR:   OKCRYO:      OKSEC BOTS:  OK ALL SYSTEMS    ONLINE
+VM_REPLACE_TILE_XY 3, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 4, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_Y
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 5, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 6, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 7, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 8, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_M
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 9, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 10, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_B
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 11, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 12, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 13, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 14, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 15, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 3, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 4, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 5, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 6, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 7, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_A
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 8, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_D
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 9, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_I
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 10, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_N
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 11, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_G
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 12, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 13, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 14, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 15, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 3, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 4, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 5, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 6, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 7, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_A
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 8, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_D
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 9, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_I
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 10, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_N
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 11, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_G
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 12, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 13, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 14, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 15, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 3, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 4, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 5, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 6, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_U
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 7, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_C
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 8, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_C
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 9, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 10, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 11, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 12, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 13, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 14, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 15, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 3, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_F
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 4, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 5, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_I
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 6, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_G
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 7, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_H
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 8, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 9, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 10, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 11, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 12, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_G
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 13, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 14, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_8
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 15, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_3
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 3, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 4, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 5, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 6, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 7, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 8, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 9, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 10, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 11, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 12, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 13, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 14, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 15, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 3, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_R
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 4, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 5, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_A
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 6, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_C
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 7, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 8, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 9, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_R
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 10, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 11, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 12, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 13, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 14, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 15, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_K
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 3, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_C
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 4, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_R
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 5, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_Y
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 6, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 7, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 8, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 9, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 10, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 11, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 12, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 13, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 14, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 15, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_K
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 3, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 4, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 5, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_C
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 6, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 7, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_B
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 8, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 9, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 10, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 11, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 12, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 13, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 14, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 15, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_K
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 3, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 4, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_A
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 5, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 6, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 7, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 8, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 9, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_Y
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 10, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 11, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 12, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 13, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_M
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 14, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 15, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 3, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 4, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 5, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 6, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 7, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_N
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 8, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 9, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_I
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 10, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_N
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT
+VM_REPLACE_TILE_XY 11, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E
+VM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT

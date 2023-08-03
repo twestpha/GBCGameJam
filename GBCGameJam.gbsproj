@@ -15900,7 +15900,9 @@
             "width": 20,
             "height": 18,
             "type": "TOPDOWN",
-            "paletteIds": [],
+            "paletteIds": [
+                "0b23c34c-33bd-414c-ba29-44129685af8a"
+            ],
             "spritePaletteIds": [],
             "collisions": [],
             "autoFadeSpeed": 1,
@@ -18403,7 +18405,8 @@
             "height": 18,
             "imageWidth": 160,
             "imageHeight": 144,
-            "filename": "terminal_tileset.png"
+            "filename": "terminal_tileset.png",
+            "tileColors": []
         }
     ],
     "spriteSheets": [
@@ -27244,7 +27247,8 @@
                         "value": {
                             "type": "number",
                             "value": 0
-                        }
+                        },
+                        "__collapse": true
                     },
                     "id": "353d6ecf-fa3b-45a3-a43c-df8ed2e363f3"
                 },
@@ -27261,9 +27265,502 @@
                                 "type": "variable",
                                 "id": "24"
                             }
-                        ]
+                        ],
+                        "__collapse": true
                     },
                     "id": "4a2160b7-1f7c-4bce-829d-b5e981c12670"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "70",
+                        "value": {
+                            "type": "number",
+                            "value": 0
+                        },
+                        "__collapse": true
+                    },
+                    "id": "916e96a0-92a8-4d0d-af9e-c2c4a14827a5"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "67",
+                        "value": {
+                            "type": "number",
+                            "value": 1
+                        },
+                        "__collapse": true
+                    },
+                    "id": "d6cc101b-5c1d-4b8f-ad0c-5b7869fdcd31"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "68",
+                        "value": {
+                            "type": "number",
+                            "value": 2
+                        },
+                        "__collapse": true
+                    },
+                    "id": "b0ed3ba3-d1a0-4ddf-8637-d38eeb9c8ab6"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "69",
+                        "value": {
+                            "type": "number",
+                            "value": 3
+                        },
+                        "__collapse": true
+                    },
+                    "id": "61d62ab0-d3e6-44c7-af99-138e9922a0f2"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "71",
+                        "value": {
+                            "type": "number",
+                            "value": 4
+                        },
+                        "__collapse": true
+                    },
+                    "id": "f56c64da-0188-4d0b-b741-dd87cb5f2761"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "72",
+                        "value": {
+                            "type": "number",
+                            "value": 5
+                        },
+                        "__collapse": true
+                    },
+                    "id": "b7753140-0fa0-4a1c-b584-adb30b76f9d5"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "73",
+                        "value": {
+                            "type": "number",
+                            "value": 6
+                        },
+                        "__collapse": true
+                    },
+                    "id": "083453ce-4758-43b6-8270-73292c5d4b7f"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "74",
+                        "value": {
+                            "type": "number",
+                            "value": 7
+                        },
+                        "__collapse": true
+                    },
+                    "id": "7ad18316-cb08-4c89-8b53-719badefdb7f"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "76",
+                        "value": {
+                            "type": "number",
+                            "value": 8
+                        },
+                        "__collapse": true
+                    },
+                    "id": "a73e21ae-0bdb-4e3a-83f5-a310228dc499"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "77",
+                        "value": {
+                            "type": "number",
+                            "value": 9
+                        },
+                        "__collapse": true
+                    },
+                    "id": "59956f3c-32dc-45e4-bfe0-0b90e62c3d0c"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "78",
+                        "value": {
+                            "type": "number",
+                            "value": 10
+                        },
+                        "__collapse": true
+                    },
+                    "id": "a3903687-4a44-4566-aa3c-b64386bc580b"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "79",
+                        "value": {
+                            "type": "number",
+                            "value": 11
+                        },
+                        "__collapse": true
+                    },
+                    "id": "060ea178-0f94-4ec8-8515-1b1ddbffe0a5"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "80",
+                        "value": {
+                            "type": "number",
+                            "value": 12
+                        },
+                        "__collapse": true
+                    },
+                    "id": "4b981e1a-8112-48e0-b852-412575bf107f"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "81",
+                        "value": {
+                            "type": "number",
+                            "value": 13
+                        },
+                        "__collapse": true
+                    },
+                    "id": "d146dc4c-6a08-4f8f-881a-0106345a1f17"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "82",
+                        "value": {
+                            "type": "number",
+                            "value": 14
+                        },
+                        "__collapse": true
+                    },
+                    "id": "7bde554a-74aa-4ca3-8c60-e93a591420c8"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "83",
+                        "value": {
+                            "type": "number",
+                            "value": 15
+                        },
+                        "__collapse": true
+                    },
+                    "id": "5fae959e-3b78-4cff-96fb-a268bb800e7f"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "84",
+                        "value": {
+                            "type": "number",
+                            "value": 16
+                        },
+                        "__collapse": true
+                    },
+                    "id": "60be974a-2404-4b18-9a2f-118af6b0eb55"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "85",
+                        "value": {
+                            "type": "number",
+                            "value": 17
+                        },
+                        "__collapse": true
+                    },
+                    "id": "505b2331-21bc-4657-a809-96bbdcc7ce13"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "86",
+                        "value": {
+                            "type": "number",
+                            "value": 18
+                        },
+                        "__collapse": true
+                    },
+                    "id": "89f7a122-7d62-4959-aa08-6a72481caf31"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "87",
+                        "value": {
+                            "type": "number",
+                            "value": 19
+                        },
+                        "__collapse": true
+                    },
+                    "id": "c7e75669-c136-4218-b804-18ceac842172"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "88",
+                        "value": {
+                            "type": "number",
+                            "value": 20
+                        },
+                        "__collapse": true
+                    },
+                    "id": "06f93905-2a0e-4cec-9231-a1eaa9d4225d"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "89",
+                        "value": {
+                            "type": "number",
+                            "value": 21
+                        },
+                        "__collapse": true
+                    },
+                    "id": "4d5232ed-2ee3-4d5a-826c-d5337bfd8fd2"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "90",
+                        "value": {
+                            "type": "number",
+                            "value": 22
+                        },
+                        "__collapse": true
+                    },
+                    "id": "cc9c959c-465c-46e8-b184-4a7f0d5c042d"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "91",
+                        "value": {
+                            "type": "number",
+                            "value": 23
+                        },
+                        "__collapse": true
+                    },
+                    "id": "8f00432c-d57f-43f3-8019-40e012df9736"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "92",
+                        "value": {
+                            "type": "number",
+                            "value": 24
+                        },
+                        "__collapse": true
+                    },
+                    "id": "c8707fc4-5f39-443b-9df8-881cdb321110"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "93",
+                        "value": {
+                            "type": "number",
+                            "value": 25
+                        },
+                        "__collapse": true
+                    },
+                    "id": "03ad6836-7b9a-4bd2-824d-e2e3a2809077"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "94",
+                        "value": {
+                            "type": "number",
+                            "value": 26
+                        },
+                        "__collapse": true
+                    },
+                    "id": "f3b2d504-2093-4378-b147-d6a8daa17baf"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "95",
+                        "value": {
+                            "type": "number",
+                            "value": 27
+                        },
+                        "__collapse": true
+                    },
+                    "id": "da19afa4-8655-4815-95f3-19de42215a04"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "96",
+                        "value": {
+                            "type": "number",
+                            "value": 28
+                        },
+                        "__collapse": true
+                    },
+                    "id": "bf56454b-ed0a-419f-ba3c-e2e843bda8d8"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "97",
+                        "value": {
+                            "type": "number",
+                            "value": 29
+                        },
+                        "__collapse": true
+                    },
+                    "id": "f1b6c5e5-54b9-499e-9708-a16f76e17589"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "98",
+                        "value": {
+                            "type": "number",
+                            "value": 30
+                        },
+                        "__collapse": true
+                    },
+                    "id": "95e4c15a-df68-4a4a-a012-ba3344d32a69"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "99",
+                        "value": {
+                            "type": "number",
+                            "value": 31
+                        },
+                        "__collapse": true
+                    },
+                    "id": "af7cb9c6-969e-4de8-8592-0a9fe6b11bf4"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "100",
+                        "value": {
+                            "type": "number",
+                            "value": 32
+                        },
+                        "__collapse": true
+                    },
+                    "id": "c92faf6f-a95f-4044-be7a-f413500819b4"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "101",
+                        "value": {
+                            "type": "number",
+                            "value": 33
+                        },
+                        "__collapse": true
+                    },
+                    "id": "9d9ad968-0156-42ac-afcb-43738c661358"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "102",
+                        "value": {
+                            "type": "number",
+                            "value": 34
+                        },
+                        "__collapse": true
+                    },
+                    "id": "4fa8d5da-1d00-43f8-bdd8-5afb1b8a03d7"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "103",
+                        "value": {
+                            "type": "number",
+                            "value": 35
+                        },
+                        "__collapse": true
+                    },
+                    "id": "2e2028eb-9f89-4a33-8a9b-720ca3e8ef7b"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "104",
+                        "value": {
+                            "type": "number",
+                            "value": 36
+                        },
+                        "__collapse": true
+                    },
+                    "id": "2e17e51a-e3b4-4774-af52-906b4d516f7c"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "105",
+                        "value": {
+                            "type": "number",
+                            "value": 37
+                        },
+                        "__collapse": true
+                    },
+                    "id": "fc4d919d-ea58-404d-a761-540d99140f63"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "106",
+                        "value": {
+                            "type": "number",
+                            "value": 38
+                        },
+                        "__collapse": true
+                    },
+                    "id": "3c5c8a45-1211-462e-8b71-1cc44acf6e48"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "107",
+                        "value": {
+                            "type": "number",
+                            "value": 39
+                        },
+                        "__collapse": true
+                    },
+                    "id": "4ba409fe-78ae-4aa1-a142-0611cf4080b7"
+                },
+                {
+                    "command": "EVENT_SET_VALUE",
+                    "args": {
+                        "variable": "108",
+                        "value": {
+                            "type": "number",
+                            "value": 5
+                        },
+                        "__collapse": true
+                    },
+                    "id": "f05f3467-4245-4479-9515-d55310c7b6eb"
                 }
             ]
         },
@@ -27274,7 +27771,181 @@
             "variables": {},
             "actors": {},
             "symbol": "script_10",
-            "script": []
+            "script": [
+                {
+                    "command": "EVENT_GBVM_SCRIPT",
+                    "args": {
+                        "references": [
+                            {
+                                "type": "variable",
+                                "id": "70"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "67"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "68"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "69"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "71"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "72"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "73"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "74"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "76"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "77"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "78"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "79"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "80"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "81"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "82"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "83"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "84"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "85"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "86"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "87"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "88"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "89"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "90"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "91"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "92"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "93"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "94"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "95"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "96"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "97"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "98"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "99"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "100"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "101"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "102"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "103"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "104"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "105"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "106"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "107"
+                            },
+                            {
+                                "type": "variable",
+                                "id": "108"
+                            }
+                        ],
+                        "script": "; SYSTEM BOOT  /:LOADING    /:LOADING    /:SUCCESS    FLIGHT LOG 83/////////////REACTOR:   OKCRYO:      OKSEC BOTS:  OK ALL SYSTEMS    ONLINE\nVM_REPLACE_TILE_XY 3, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 4, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_Y\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 5, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 6, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 7, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 8, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_M\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 9, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 10, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_B\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 11, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 12, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 13, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 14, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 15, 3, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 3, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 4, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 5, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 6, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 7, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_A\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 8, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_D\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 9, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_I\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 10, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_N\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 11, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_G\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 12, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 13, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 14, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 15, 4, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 3, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 4, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 5, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 6, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 7, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_A\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 8, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_D\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 9, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_I\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 10, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_N\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 11, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_G\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 12, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 13, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 14, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 15, 5, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 3, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 4, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 5, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 6, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_U\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 7, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_C\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 8, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_C\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 9, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 10, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 11, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 12, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 13, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 14, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 15, 6, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 3, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_F\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 4, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 5, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_I\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 6, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_G\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 7, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_H\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 8, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 9, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 10, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 11, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 12, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_G\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 13, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 14, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_8\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 15, 7, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_3\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 3, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 4, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 5, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 6, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 7, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 8, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 9, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 10, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 11, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 12, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 13, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 14, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 15, 8, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SLASH\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 3, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_R\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 4, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 5, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_A\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 6, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_C\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 7, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 8, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 9, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_R\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 10, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 11, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 12, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 13, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 14, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 15, 9, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_K\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 3, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_C\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 4, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_R\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 5, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_Y\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 6, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 7, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 8, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 9, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 10, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 11, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 12, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 13, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 14, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 15, 10, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_K\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 3, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 4, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 5, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_C\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 6, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 7, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_B\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 8, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 9, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 10, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 11, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_COLON\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 12, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 13, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 14, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 15, 11, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_K\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 3, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 4, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_A\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 5, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 6, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 7, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 8, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 9, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_Y\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 10, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 11, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_T\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 12, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 13, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_M\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 14, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_S\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 15, 12, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 3, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 4, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 5, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_SPACE\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 6, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_O\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 7, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_N\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 8, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_L\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 9, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_I\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 10, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_N\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT\nVM_REPLACE_TILE_XY 11, 13, ___bank_bg_terminal_tileset_tileset, _bg_terminal_tileset_tileset, VAR_TEXT_E\nVM_INVOKE b_wait_frames, _wait_frames, 0, VAR_TEXT_WAIT"
+                    },
+                    "id": "f8ee0aa3-1532-4b3e-9e2c-dedf61b8ba3b"
+                }
+            ]
         }
     ],
     "music": [
@@ -27708,6 +28379,216 @@
             "id": "66",
             "name": "walking_level",
             "symbol": "var_walking_level"
+        },
+        {
+            "id": "67",
+            "name": "text_1",
+            "symbol": "var_text_1"
+        },
+        {
+            "id": "68",
+            "name": "text_2",
+            "symbol": "var_text_2"
+        },
+        {
+            "id": "69",
+            "name": "text_3",
+            "symbol": "var_text_3"
+        },
+        {
+            "id": "70",
+            "name": "text_space",
+            "symbol": "var_text_space"
+        },
+        {
+            "id": "71",
+            "name": "text_4",
+            "symbol": "var_text_4"
+        },
+        {
+            "id": "72",
+            "name": "text_5",
+            "symbol": "var_text_5"
+        },
+        {
+            "id": "73",
+            "name": "text_6",
+            "symbol": "var_text_6"
+        },
+        {
+            "id": "74",
+            "name": "text_7",
+            "symbol": "var_text_7"
+        },
+        {
+            "id": "75",
+            "name": "text_7",
+            "symbol": "var_text_0"
+        },
+        {
+            "id": "76",
+            "name": "text_8",
+            "symbol": "var_text_8"
+        },
+        {
+            "id": "77",
+            "name": "text_9",
+            "symbol": "var_text_9"
+        },
+        {
+            "id": "78",
+            "name": "text_a",
+            "symbol": "var_text_a"
+        },
+        {
+            "id": "79",
+            "name": "text_b",
+            "symbol": "var_text_b"
+        },
+        {
+            "id": "80",
+            "name": "text_c",
+            "symbol": "var_text_c"
+        },
+        {
+            "id": "81",
+            "name": "text_d",
+            "symbol": "var_text_d"
+        },
+        {
+            "id": "82",
+            "name": "text_e",
+            "symbol": "var_text_e"
+        },
+        {
+            "id": "83",
+            "name": "text_f",
+            "symbol": "var_text_f"
+        },
+        {
+            "id": "84",
+            "name": "text_g",
+            "symbol": "var_text_g"
+        },
+        {
+            "id": "85",
+            "name": "text_h",
+            "symbol": "var_text_h"
+        },
+        {
+            "id": "86",
+            "name": "text_i",
+            "symbol": "var_text_i"
+        },
+        {
+            "id": "87",
+            "name": "text_j",
+            "symbol": "var_text_j"
+        },
+        {
+            "id": "88",
+            "name": "text_k",
+            "symbol": "var_text_k"
+        },
+        {
+            "id": "89",
+            "name": "text_l",
+            "symbol": "var_text_l"
+        },
+        {
+            "id": "90",
+            "name": "text_m",
+            "symbol": "var_text_m"
+        },
+        {
+            "id": "91",
+            "name": "text_n",
+            "symbol": "var_text_n"
+        },
+        {
+            "id": "92",
+            "name": "text_o",
+            "symbol": "var_text_o"
+        },
+        {
+            "id": "93",
+            "name": "text_p",
+            "symbol": "var_text_p"
+        },
+        {
+            "id": "94",
+            "name": "text_q",
+            "symbol": "var_text_q"
+        },
+        {
+            "id": "95",
+            "name": "text_r",
+            "symbol": "var_text_r"
+        },
+        {
+            "id": "96",
+            "name": "text_s",
+            "symbol": "var_text_s"
+        },
+        {
+            "id": "97",
+            "name": "text_t",
+            "symbol": "var_text_t"
+        },
+        {
+            "id": "98",
+            "name": "text_u",
+            "symbol": "var_text_u"
+        },
+        {
+            "id": "99",
+            "name": "text_v",
+            "symbol": "var_text_v"
+        },
+        {
+            "id": "100",
+            "name": "text_w",
+            "symbol": "var_text_w"
+        },
+        {
+            "id": "101",
+            "name": "text_x",
+            "symbol": "var_text_x"
+        },
+        {
+            "id": "102",
+            "name": "text_y",
+            "symbol": "var_text_y"
+        },
+        {
+            "id": "103",
+            "name": "text_z",
+            "symbol": "var_text_z"
+        },
+        {
+            "id": "104",
+            "name": "text_slash",
+            "symbol": "var_text_slash"
+        },
+        {
+            "id": "105",
+            "name": "text_colon",
+            "symbol": "var_text_colon"
+        },
+        {
+            "id": "106",
+            "name": "text_leftparen",
+            "symbol": "var_text_leftparen"
+        },
+        {
+            "id": "107",
+            "name": "text_rightparen",
+            "symbol": "var_text_rightparen"
+        },
+        {
+            "id": "108",
+            "name": "text_wait",
+            "symbol": "var_text_wait"
         }
     ],
     "engineFieldValues": [
@@ -27729,9 +28610,9 @@
         "startDirection": "up",
         "showCollisions": true,
         "showConnections": true,
-        "worldScrollX": 785,
-        "worldScrollY": 497,
-        "zoom": 225,
+        "worldScrollX": 1390,
+        "worldScrollY": 34,
+        "zoom": 275,
         "customColorsEnabled": true,
         "sgbEnabled": false,
         "customHead": "",
@@ -27759,9 +28640,9 @@
         "defaultUIPaletteId": "default-ui",
         "playerPaletteId": "",
         "navigatorSplitSizes": [
-            320,
-            342,
-            334
+            112,
+            417,
+            467
         ],
         "showNavigator": true,
         "defaultFontId": "4bd653f0-e08d-424e-9e5b-c1f3aaa21e47",

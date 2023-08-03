@@ -25,6 +25,8 @@ Short term goal:
 [x] player death, restarting
     - shitty placeholder start screen
 [x] 1 terminal with some story
+    [x] Setup values in terminal setup
+    [x] Terminal text tool, inserting waits and writing each letter automatically
 
 -- Main Game --
 [x] Get enemy interactions working
