@@ -9,9 +9,14 @@
     [/] Terminal text tool, inserting waits and writing each letter automatically
 [/] Get dialogue scenes/terminals working
 [/] BUG Sometimes player doesn't get back to correct spot when leaving terminal
-
+[/] BUG player when damaged changes to wrong palette
+[/] player death, restarting
+    - shitty placeholder start screen
 #### TODO ######################################################################
 
+
+
+[x] BUG bottom left corner of aim screen sometimes gets overwritten
 [x] BUG Definitely a couple small bugs around enemy placement
 [x] BUG Fix shittyInvsin(). It's too shitty
 [x] BUG Sometimes enemy doesn't end up in correct spot when exiting aiming
@@ -19,11 +24,11 @@
 
 -- Main Game --
 [x] 1 playable level with 1 enemy type
-    [x] Topdown enemy [/] patrolling, [x] engaging, and [x] firing projectiles
-[x] player death, restarting
-    - shitty placeholder start screen
+    [x] Walking mode enemy [/] patrolling, [x] engaging, and [x] firing projectiles
+
 
 -- Stretch goals --
+[x] Multiple enemies
 [x] Get lighting scene integrated, light switch working
 [x] Get save points working
 [x] RPG mechanics? Menu? Not sure...
