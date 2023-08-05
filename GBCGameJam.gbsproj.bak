@@ -5463,10 +5463,18 @@
                     "command": "EVENT_GROUP",
                     "args": {
                         "__label": "Setup Player",
-                        "__collapse": true
+                        "__collapse": false
                     },
                     "children": {
                         "true": [
+                            {
+                                "command": "EVENT_ACTOR_SHOW",
+                                "args": {
+                                    "actorId": "$self$",
+                                    "__collapse": true
+                                },
+                                "id": "c124b750-5c9a-452e-bdf5-15c62a9888da"
+                            },
                             {
                                 "command": "EVENT_ACTOR_COLLISIONS_DISABLE",
                                 "args": {
@@ -5528,7 +5536,7 @@
                         ],
                         "override": true,
                         "__scriptTabs": "press",
-                        "__collapse": false
+                        "__collapse": true
                     },
                     "children": {
                         "true": [

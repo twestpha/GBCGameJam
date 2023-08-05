@@ -12,9 +12,8 @@
 [/] BUG player when damaged changes to wrong palette
 [/] player death, restarting
     - shitty placeholder start screen
+
 #### TODO ######################################################################
-
-
 
 [x] BUG bottom left corner of aim screen sometimes gets overwritten
 [x] BUG Definitely a couple small bugs around enemy placement
